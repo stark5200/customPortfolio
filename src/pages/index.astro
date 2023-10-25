@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import gmm_screenshot_1 from '../../public/gmm_screenshot_1.jpg'
 import stark1024 from '../../public/stark1024.jpg'
+import pdf from '../../public/ammartahacv.pdf'
 ---
 
 <Layout title="Welcome to Astro.">
@@ -54,8 +55,8 @@ import stark1024 from '../../public/stark1024.jpg'
 				image=gmm_screenshot_1
 			/>
 			<Card
-				href="/"
-				title="Themes"
+				href={pdf}
+				title="My CV"
 				body="Here is a look at my cv."
 				image=stark1024
 			/>
