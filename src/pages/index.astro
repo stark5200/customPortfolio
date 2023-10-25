@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
-import gmm_screenshot_1 from '../../public/gmm_screenshot_1.jpg'
+const gmm_screenshot_1_path = '../../public/gmm_screenshot_1.jpg'
 import stark1024 from '../../public/stark1024.jpg'
 import pdf from '../../public/ammartahacv.pdf'
 ---
@@ -46,19 +46,19 @@ import pdf from '../../public/ammartahacv.pdf'
 				href="https://github.com/stark5200/"
 				title="Github Profile"
 				body="My Personal Github Profile."
-				image=gmm_screenshot_1
+				image='../../public/github_profile_1.jpg'
 			/>
 			<Card
 				href="https://gmm-ahmed.vercel.app/"
 				title="Green Marmot Website"
 				body="Custom website for Green Marmot Capsule hotel based in Zürich."
-				image=gmm_screenshot_1
+				image='../../public/gmm_screenshot_1.jpg'
 			/>
 			<Card
 				href={pdf}
 				title="My CV"
 				body="Here is a look at my cv."
-				image=stark1024
+				image='../../public/cv_1.jpg'
 			/>
 			<Card
 				href="https://astro.build/chat/"
