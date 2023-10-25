@@ -9,9 +9,9 @@ interface Props {
 const { href, title, body, image } = Astro.props;
 ---
 
-<li class="link-card">
+<div class="link-card">
 	<a href={href}>
-		<img src="image" alt="bg-image">
+		{/*<img src={image} alt="bg-image"/>*/}
 		<h2>
 			{title}
 			<span>&rarr;</span>
@@ -20,14 +20,14 @@ const { href, title, body, image } = Astro.props;
 			{body}
 		</p>
 	</a>
-</li>
+</div>
 <style>
 	.link-card {
 		list-style: none;
 		display: flex;
 		padding: 1px;
 		background-color: #23262d;
-		background-image: none;
+		background-image: image;
 		background-size: 400%;
 		border-radius: 7px;
 		background-position: 100%;
