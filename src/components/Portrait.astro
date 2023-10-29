@@ -1,0 +1,14 @@
+---
+import '../globals.css'
+
+interface Props {
+	image: string;
+}
+
+const { image } = Astro.props;
+---
+
+<div class="custom-portrait">
+		<img class="rounded " src={image} alt="card-image"/>
+</div>
+
