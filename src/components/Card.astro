@@ -8,15 +8,15 @@ interface Props {
 	image: string;
 }
 
-const { href, title, body, image } = Astro.props;
+const { title, body, href, image } = Astro.props;
 ---
 
 <div class="custom-link-card">
 	<a href={href}>
-		<img src={image} alt="bg-image"/>
+		<img src={image} alt="card-image"/>
 		<h2>
 			{title}
-			<span>&rarr;</span>
+			&rarr;
 		</h2>
 		<p>
 			{body}
