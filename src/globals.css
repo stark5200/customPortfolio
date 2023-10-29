@@ -46,6 +46,7 @@ footer {
 	background-size: 400%;
 	background-position: 0%;
 }
+
 .custom-intro {
 	margin-bottom: 3rem;
 	border: 1px solid rgba(var(--accent-light), 30%);
@@ -56,13 +57,13 @@ footer {
 .custom-intro strong {
 	color: rgb(var(--accent-light));
 }
+
 .custom-link-card-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
 	gap: 2rem;
 	padding: 0;
 }
-
 .custom-link-card {
 	list-style: none;
 	display: flex;
@@ -71,19 +72,6 @@ footer {
 	background-image: none;
 	background-size: 400%;
 	border-radius: 7px;
-	background-position: 100%;
-	transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-}
-
-.custom-portrait {
-	list-style: none;
-	display: flex;
-	padding: 1px;
-	background-color: #23262d;
-	background-image: none;
-	background-size: 400%;
-	border-radius: 50%;
 	background-position: 100%;
 	transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
@@ -104,6 +92,22 @@ footer {
 }
 .custom-link-card:is(:hover, :focus-within) h2 {
 	color: rgb(var(--accent-light));
+}
+
+.custom-portrait {
+	display: flex;
+	padding: 1px;
+	background-image: none;
+	border-radius: 50%;
+	background-position: 100%;
+	transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.custom-portrait-img {
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+	background-position: 100%;
+	transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .custom-social {
