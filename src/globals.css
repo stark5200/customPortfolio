@@ -2,8 +2,11 @@
 
 /*Components*/
 :root {
-	--accent: 106, 58, 234;
-	--accent-light: 204, 204, 250;
+	--accent-hex: #4b30e8; 
+	--accent-light-hex: #7979e4; 
+	--accent-dark-hex: #210c78; 
+	--accent: 136, 58, 234;
+	--accent-light: 224, 204, 250;
 	--accent-dark: 49, 10, 101;
 	--accent-gradient: linear-gradient(
 		45deg,
