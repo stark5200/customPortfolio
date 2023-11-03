@@ -81,7 +81,6 @@ footer {
 
 .custom-intro {
 	margin-bottom: 3rem;
-	width: 50%;
 	border: 1px solid rgba(var(--accent-light), 30%);
 	background: linear-gradient(rgba(var(--accent-dark), 67%), rgba(var(--accent-dark), 34%));
 	padding: 1.5rem;
@@ -132,7 +131,6 @@ footer {
 	display: flex;
 	width: 300px;
 	height: 300px;
-	padding-right: 10%;
 }
 .custom-portrait-img {
 	display: inline;
