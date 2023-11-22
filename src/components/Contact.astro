@@ -1,0 +1,19 @@
+---
+import '../globals.css'
+
+interface Props {
+	tel: string;
+	email: string;
+	address: string;
+}
+
+const { tel, email, address } = Astro.props;
+---
+
+	<p class="flex-end custom-intro">
+    <strong>Contact details:</strong>
+    <br>{tel}
+    <br>{email}
+    <br>{address}
+  </p>
+

@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Contact from '../components/Contact.astro';
 import Portrait from '../components/Portrait.astro';
 import Footer from '../components/Footer.astro';
 const gmm_screenshot_1_path = '../../public/gmm_screenshot_1.jpg';
@@ -15,15 +16,13 @@ import pdf from '../../public/ammartahacv.pdf';
 			<h1 class="pt-10">Welcome to <span class="custom-text-gradient">My Personal Website</span></h1>
 			<div class="flex justify between pb-16">
 				<Portrait 
-						image='../../public/stark1024.jpg'
-					/>
-					<p class="flex-end custom-intro">
-						<strong>Contact details:</strong>
-						<br>a.taha5200@gmail.com 
-						<br>+41784016950
-						<br>+41784016950
-						<br>Zürcherstrasse 57, Dietikon, Zürich 
-					</p>
+					image='../../public/stark1024.jpg'
+				/>
+				<Contact 
+  				email="a.taha5200@gmail.com" 
+  				tel="+41784016950"
+  				address="Zürcherstrasse 57, Dietikon, Zürich"
+				/>
 			</div>
 			<p class="custom-intro">
 				Hi, I'm <strong>Ammar Taha</strong>, a recent CS graduate and web dev, listed below are some of my projects and CV. <br>
