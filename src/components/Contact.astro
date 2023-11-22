@@ -9,11 +9,13 @@ interface Props {
 
 const { tel, email, address } = Astro.props;
 ---
-
-	<p class="flex-end custom-intro">
+<div class="custom-contact container">
+	<p class="custom-intro inline-block -m-0 w-100 h-75">
     <strong>Contact details:</strong>
-    <br>{tel}
-    <br>{email}
-    <br>{address}
+    <br>
+    <br>&#x2022; &emsp;<a href={"tel:" + tel}>{tel}</a>
+    <br>&#x2022; &emsp;<a href={"email:" + email}>{email}</a>
+    <br>&#x2022; &emsp;{address}
   </p>
+</div>
 

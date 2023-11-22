@@ -152,6 +152,15 @@ footer {
 	margin: 2px;
 }
 
+.custom-contact {
+	position: relative;
+	display: flex;
+	width: 400px;
+	height: 300px;
+	border: 2px;
+	margin: 2px;
+}
+
 .custom-social {
 	display: flex;
 	justify-content: center;
