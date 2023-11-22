@@ -4,8 +4,11 @@ import Card from '../components/Card.astro';
 import Contact from '../components/Contact.astro';
 import Portrait from '../components/Portrait.astro';
 import Footer from '../components/Footer.astro';
-const gmm_screenshot_1_path = '../../public/gmm_screenshot_1.jpg';
-const stark1024 = '../../public/stark1024.jpg';
+const stark1024 = 'stark1024.jpg';
+const gmm_screenshot_1 = 'gmm_screenshot_1.jpg';
+const github_profile_1 ='github_profile_1.jpg'
+const cv_1 ='cv_1.jpg'
+const customPortfolio_screenshot_1 ='customPortfolio_screenshot_1.jpg'
 import pdf from '../../public/ammartahacv.pdf';
 ---
 
@@ -16,7 +19,7 @@ import pdf from '../../public/ammartahacv.pdf';
 			<h1 class="pt-10">Welcome to <span class="custom-text-gradient">My Personal Website</span></h1>
 			<div class="flex justify between pb-16">
 				<Portrait 
-					image='../../public/stark1024.jpg'
+					image={stark1024}
 				/>
 				<Contact 
   				email="a.taha5200@gmail.com" 
@@ -34,25 +37,25 @@ import pdf from '../../public/ammartahacv.pdf';
 					href="https://github.com/stark5200/"
 					title="Github Profile"
 					body="My Personal Github Profile."
-					image='../../public/github_profile_1.jpg'
+					image={github_profile_1}
 				/>
 				<Card
 					href="https://gmm-ahmed.vercel.app/"
 					title="Green Marmot Website"
 					body="Custom website for Green Marmot Capsule hotel based in Zürich."
-					image='../../public/gmm_screenshot_1.jpg'
+					image={gmm_screenshot_1}
 				/>
 				<Card
 					href={pdf}
 					title="My CV"
 					body="Here is a look at my cv."
-					image='../../public/cv_1.jpg'
+					image={cv_1}
 				/>
 				<Card
 					href="https://github.com/stark5200/customPortfolio/"
 					title="This Website "
 					body="Here you can find the repo for this website made with Astro."
-					image='../../public/customPortfolio_screenshot_1.jpg'
+					image={customPortfolio_screenshot_1}
 				/>
 			</ul>
 		</main>
