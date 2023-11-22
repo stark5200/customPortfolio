@@ -13,7 +13,8 @@ const { title, body, href, image } = Astro.props;
 
 <div class="custom-link-card">
 	<a href={href}>
-		<img src={image} alt="card-image"/>
+		<img src={image} alt="card-image" style="aspect-ratio: 16 / 9; object-fit: cover;"/>
+		<p><br/></p>
 		<h2>
 			{title}
 			&rarr;
