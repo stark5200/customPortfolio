@@ -9,13 +9,14 @@ interface Props {
 
 const { tel, email, address } = Astro.props;
 ---
-<div class="custom-intro custom-contact container">
+<div class="custom-intro custom-contact container contact-svg-bg">
 	<p>
     <strong>Contact details:</strong>
     <br>
-    <br>&#x2022; &emsp;<a href={"tel:" + tel}>{tel}</a>
-    <br>&#x2022; &emsp;<a href={"email:" + email}>{email}</a>
-    <br>&#x2022; &emsp;{address}
+    <br>&nbsp; &#x2022; &nbsp;<a href={"tel:" + tel}>{tel}</a>
+    <br>&nbsp; &#x2022; &nbsp;<a href={"email:" + email}>{email}</a>
+    <br>&nbsp; &#x2022; &nbsp;{address}
+    <br>&nbsp; &#x2022; &nbsp;<a href="https://github.com/stark5200/" target="_blank">github.com/stark5200</a>
   </p>
 </div>
 
