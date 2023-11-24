@@ -77,6 +77,7 @@ footer {
 .custom-hover:hover {
 	transform: translateY(-10px);
 	transition: transform 400ms;
+	box-shadow: 3px 3px 2px rgba(4, 47, 61, 0.332);
 }
 
 .link-hover:hover {
@@ -101,6 +102,12 @@ footer {
 }
 .custom-intro strong {
 	color: rgb(var(--accent-light));
+	transition: all 300ms;
+}
+
+.custom-intro:hover {
+	box-shadow: 3px 3px 2px rgba(4, 47, 61, 0.332);
+	transition: all 300ms;
 }
 
 .custom-link-card-grid {
