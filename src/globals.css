@@ -79,6 +79,10 @@ footer {
 	transition: transform 400ms;
 }
 
+.link-hover:hover {
+	background-color: #0912482e;
+}
+
 .custom-text-gradient {
 	background-image: var(--accent-gradient);
 	background-clip: text;
