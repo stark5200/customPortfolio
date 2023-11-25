@@ -101,7 +101,7 @@ footer {
 .custom-intro {
 	margin-bottom: 3rem;
 	border: 1px solid rgba(var(--secondary), 30%);
-	background: linear-gradient(rgba(var(--secondary), 70%), rgba(var(--secondary-dark), 30%));
+	background: linear-gradient(rgba(var(--secondary), 60%), rgba(var(--secondary-dark), 40%));
 	padding: 1.5rem;
 	border-radius: 8px;
 }
@@ -110,7 +110,7 @@ footer {
 }
 
 .custom-intro:hover {
-	box-shadow: 2px 2px 1px rgba(9, 4, 61, 0.237);
+	box-shadow: 3px 3px 2px #17171746;
 	transition: all 200ms;
 }
 
