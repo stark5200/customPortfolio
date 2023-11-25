@@ -5,9 +5,13 @@
 	--accent-hex: #3218c4; 
 	--accent-light-hex: #6971d9; 
 	--accent-dark-hex: #210c78; 
+	--secondary-hex: #03DAC6; 
+	--secondary-dark-hex: #02655b; 
 	--accent: 136, 58, 234;
 	--accent-light: 194, 174, 220;
 	--accent-dark: 49, 10, 101;
+	--secondary: 3, 218, 198;
+	--secondary-dark: 2, 165, 151;
 	--accent-gradient: linear-gradient(
 		45deg,
 		rgb(var(--accent)),
@@ -80,7 +84,7 @@ footer {
 }
 
 .link-hover:hover {
-	background-color: #1708302e;
+	background-color: #0c6a6f5d;
 	padding: 2px 5px;
 	border-radius: 3px;
 }
@@ -96,8 +100,8 @@ footer {
 
 .custom-intro {
 	margin-bottom: 3rem;
-	border: 1px solid rgba(var(--accent-light), 30%);
-	background: linear-gradient(rgba(var(--accent-dark), 67%), rgba(var(--accent-dark), 34%));
+	border: 1px solid rgba(var(--secondary), 30%);
+	background: linear-gradient(rgba(var(--secondary), 70%), rgba(var(--secondary-dark), 30%));
 	padding: 1.5rem;
 	border-radius: 8px;
 }
@@ -196,7 +200,7 @@ footer {
 
 
 .contact-svg-bg {background-color: #ffffff;
-	background-image: url('/low-poly-grid-haikei.svg');
+	background-image: url('/blob-scene-haikei1.svg');
 	background-attachment: scroll;
 	background-size: 100%;
 	background-repeat: repeat;
