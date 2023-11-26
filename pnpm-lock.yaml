@@ -23,6 +23,9 @@ dependencies:
   astro:
     specifier: ^3.3.2
     version: 3.3.2
+  kute.js:
+    specifier: ^2.2.4
+    version: 2.2.4
   preact:
     specifier: ^10.6.5
     version: 10.18.1
@@ -938,6 +941,14 @@ packages:
       picomatch: 2.3.1
     dev: false
 
+  /@thednp/bezier-easing@1.0.5:
+    resolution: {integrity: sha512-wKl6Q9EFCKp5S6EKNMmHc9wfCIVO4+a4dwijXJcBnYdG/9pDPRFHDGrIjANjSCf/CTkWx6VKZUOcNScCSDYtYQ==}
+    dev: false
+
+  /@thednp/shorty@1.0.3:
+    resolution: {integrity: sha512-PPaERUGmRpi2eWxYUV5yv/pvalPgPOjwKRmRqGMWGuV8xgkvxgtjKIiFJA2D2ei4l4Ih9mEBktDg6Z9+y+To9Q==}
+    dev: false
+
   /@types/babel__core@7.20.3:
     resolution: {integrity: sha512-54fjTSeSHwfan8AyHWrKbfBWiEUrNTZsUwPTDSNaaP1QDQIZbeNUg3a59E9D+375MzUw/x1vx2/0F5LBz+AeYA==}
     dependencies:
@@ -1598,6 +1609,11 @@ packages:
 
   /dlv@1.1.3:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
+    dev: false
+
+  /dommatrix@1.0.3:
+    resolution: {integrity: sha512-l32Xp/TLgWb8ReqbVJAFIvXmY7go4nTxxlWiAFyhoQw9RKEOHBZNnyGvJWqDVSPmq3Y9HlM4npqF/T6VMOXhww==}
+    deprecated: dommatrix is no longer maintained. Please use @thednp/dommatrix.
     dev: false
 
   /dset@3.1.2:
@@ -2282,6 +2298,15 @@ packages:
     resolution: {integrity: sha512-Y+60/zizpJ3HRH8DCss+q95yr6145JXZo46OTpFvDZWLfRCE4qChOyk1b26nMaNpfHHgxagk9dXT5OP0Tfe+dQ==}
     dev: false
 
+  /kute.js@2.2.4:
+    resolution: {integrity: sha512-M63qfJplLT/1+qeRdFtHimC0D4fqUyRqHJcsnWWTY9s+isB6TsNNx/oSR2XzMm4CsY9Rvqurd+xUYSyJggmhbQ==}
+    dependencies:
+      '@thednp/bezier-easing': 1.0.5
+      '@thednp/shorty': 1.0.3
+      minifill: 0.0.17
+      svg-path-commander: 1.0.5
+    dev: false
+
   /lilconfig@2.1.0:
     resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}
     engines: {node: '>=10'}
@@ -2827,6 +2852,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /minifill@0.0.17:
+    resolution: {integrity: sha512-tV56LFXsi8vjH4tUExtlu8aPKKQw/U/mn4OIrDU9x30H+9sP8/dWFbXzkAPmcH6o+9fho98kyafnk4VgQViYQQ==}
+    dev: false
 
   /minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
@@ -3722,6 +3751,12 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: false
+
+  /svg-path-commander@1.0.5:
+    resolution: {integrity: sha512-hhQfARVXoPrwwe4DNPWM4hjQLK7rTxwQ+TUc5mxoe5g0k5eStc4SPnKqmivlm/dzZ98bI+yDyKye92n2t+oOiQ==}
+    dependencies:
+      dommatrix: 1.0.3
     dev: false
 
   /tailwindcss@3.3.3:

@@ -198,6 +198,15 @@ footer {
 	/* background from SVGBackgrounds.com */
 }
 
+.custom-plain-bg {
+	background-color: #1f1e35;
+	
+	background-attachment: scroll;
+	background-size: 100%;
+	background-repeat: repeat;
+	/* background from SVGBackgrounds.com */
+}
+
 
 .contact-svg-bg {background-color: #ffffff;
 	background-image: url('/blob-scene-haikei1.svg');
