@@ -205,6 +205,12 @@ footer {
 	background-size: 100%;
 }
 
+.footer-bg {
+	background-color: #23262d;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
 /*Contact svg animation*/
 
 .contact-svg-bg {
