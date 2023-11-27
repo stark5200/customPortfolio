@@ -63,3 +63,14 @@ const pdf = 'ammartahacv.pdf';
 	<Footer />
 </Layout>
 
+<script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js" integrity="sha256-ekq8UIBrOC1lgaJmRRV/c50s5Hy/EBKjBD/7nM9dvp0=" crossorigin="anonymous">
+	
+	const tween = KUTE.fromTo(
+          '#blob1', 
+          {path: '#blob1'},
+          {path: '#blob2'}, 
+          {repeat: 999, duration: 3000, yoyo: true, easing: 'easingQuadraticInOut' }
+        )
+        tween.start()
+</script>
+
