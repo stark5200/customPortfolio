@@ -224,6 +224,15 @@ footer {
 	/* background from SVGBackgrounds.com */
 }
 
+.intro-svg-bg {
+	background-image: url('/blob-scene-haikei-intro.svg');
+	background-attachment: scroll;
+	background-size: 100%;
+	background-repeat: repeat;
+	object-fit: cover;
+	/* background from SVGBackgrounds.com */
+}
+
 /*
 old contact svg url:
 
