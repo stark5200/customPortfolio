@@ -87,6 +87,12 @@ footer {
 	padding-bottom: 16;
 }
 
+.dynamic-layout:-ms-fullscreen {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 16;
+}
+
 .custom-hover {
 	transition: all 300ms;
 }
