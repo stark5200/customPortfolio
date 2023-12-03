@@ -13,10 +13,10 @@ const pdf = 'ammartahacv.pdf';
 ---
 
 <Layout title="Welcome to My Website.">
-	<div class="custom-svg-bg pb-20">
-		<main>			
+	<div class="custom-svg-bg pb-20 pt-10">
+		<main class="pt-10">			
 			<h1 class="pt-10 custom-text-gradient">Ammar Taha: Web Dev</h1>
-			<h1 class="pt-10">Welcome to <span class="custom-text-gradient">My Personal Website</span></h1>
+			<h1 class="pt-10 pb-20">Welcome to <span class="custom-text-gradient">My Personal Website</span></h1>
 			<div class="dynamic-layout">
 				<Portrait 
 					image={stark1024}
@@ -27,13 +27,18 @@ const pdf = 'ammartahacv.pdf';
   				address="Dietikon, Zürich"
 				/>
 			</div>
-			<p class="custom-intro intro-svg-bg">
-				Hi, I'm <strong>Ammar Taha</strong>, a recent CS graduate and web dev, I'm looking forward to working with and learning from experienced developers on different types of projects. <br>
-				listed below are some of my projects and CV. <br> <br>
-				Skills: Html, CSS/tailwindcss, JS/TS, React, Nextjs, Astro, Python
-			</p>
-			
-			<ul role="list" class="custom-link-card-grid">
+			<div class="container">
+				<p class="custom-intro intro-svg-bg pb-20">
+					Hi, I'm <strong>Ammar Taha</strong>, a recent CS graduate and web dev, I'm looking forward to working with and learning from experienced developers on different types of projects. <br>
+					listed below are some of my projects and CV. <br> <br>
+					Skills: Html, CSS/tailwindcss, JS/TS, React, Nextjs, Astro, Python
+				</p>
+			</div>
+
+			<div class="pt-10 container"></div>
+
+			<div class="container">
+				<ul role="list" class="custom-link-card-grid pt-10">
 				<Card
 					href="https://github.com/stark5200/"
 					title="Github Profile"
@@ -59,6 +64,7 @@ const pdf = 'ammartahacv.pdf';
 					image={customPortfolio_screenshot_1}
 				/>
 			</ul>
+			</div>
 		</main>
 	</div>
 	<Footer />
