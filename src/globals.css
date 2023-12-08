@@ -121,14 +121,14 @@ footer {
 
 .custom-contact-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 	gap: 2rem;
 	padding: 1rem;
 }
 
 .custom-link-card-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(min(24ch, 100%), 1fr));
 	gap: 2rem;
 	padding: 1rem;
 }
@@ -385,7 +385,7 @@ footer {
 	main {
 		margin: auto;
 		padding: 1rem;
-		width: 640px;
+		width: 780px;
 		max-width: calc(100% - 2rem);
 		color: white;
 		font-size: 20px;
@@ -436,7 +436,7 @@ footer {
 @media (min-width: 820px) {
 
 	.custom-container {
-		max-width: 801px;
+		max-width: 810px;
 		border: 1px solid green;
 	}
 
@@ -478,7 +478,7 @@ footer {
 	main {
 		margin: auto;
 		padding: 1rem;
-		width: 800px;
+		width: 810px;
 		max-width: calc(100% - 2rem);
 		color: white;
 		font-size: 20px;
