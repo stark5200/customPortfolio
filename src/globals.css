@@ -233,7 +233,7 @@ footer {
 
 /* <600, 601, 768, 992, 1200> */
 
-.container {
+.custom-container {
 	width:100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -245,14 +245,14 @@ footer {
 /* <600 */ 
 @media (max-width: 600px) {
 
-	.container {
-		max-width: 350px;
+	.custom-container {
+		max-width: 400px;
 	}
 
 	main {
 		margin: auto;
 		padding: 1rem;
-		width: 350px;
+		width: 360px;
 		max-width: calc(100% - 2rem);
 		color: white;
 		font-size: 20px;
@@ -307,13 +307,22 @@ footer {
 /* 601 */
 @media (min-width: 601px) {
 
-	.container {
+	.custom-container {
 		max-width: 800px;
 		border: 1px solid blue;
 	}
 
+	.dynamic-layout {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 16;
+	}
+
 	.custom-portrait {
 		position: relative;
+		justify-content: center;
+		align-items: center;
 		display: flex;
 		width: 200px;
 		height: 200px;
@@ -321,6 +330,8 @@ footer {
 
 	.custom-portrait-img {
 		display: inline;
+		justify-content: center;
+		align-items: center;
 		width:200px;
 		height: 200px;
 		object-fit:cover;
@@ -368,12 +379,6 @@ footer {
 		background-size: 100%;
 	}
 
-	.dynamic-layout {
-		display: flex;
-		justify-content: space-between;
-		padding-bottom: 16;
-	}
-
 	.custom-intro {
 		margin-bottom: 3rem;
 		margin-top: 3rem;
@@ -389,9 +394,16 @@ footer {
 /* 820 was 768 */
 @media (min-width: 820px) {
 
-	.container {
+	.custom-container {
 		max-width: 801px;
 		border: 1px solid green;
+	}
+
+	.dynamic-layout {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 16;
 	}
 
 	.custom-portrait {
@@ -450,12 +462,6 @@ footer {
 		background-size: 100%;
 	}
 
-	.dynamic-layout {
-		display: flex;
-		justify-content: space-between;
-		padding-bottom: 16;
-	}
-
 	.custom-intro {
 		margin-bottom: 3rem;
 		margin-top: 3rem;
@@ -470,9 +476,16 @@ footer {
 /* 992 */
 @media (min-width: 992px) {
 
-	.container {
+	.custom-container {
 		max-width: 980px;
 		border: 1px solid pink;
+	}
+
+	.dynamic-layout {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 16;
 	}
 
 	main {
@@ -511,12 +524,6 @@ footer {
 		background-color: #23262d;
 		background-attachment: fixed;
 		background-size: 100%;
-	}
-
-	.dynamic-layout {
-		display: flex;
-		justify-content: space-between;
-		padding-bottom: 16;
 	}
 
 	.custom-intro {
