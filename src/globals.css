@@ -283,6 +283,13 @@ footer {
 		background-size: 100%;
 	}
 
+	/*resize svg icon*/
+	.svg-icon {
+		width: 24;
+		height: 24;
+	}
+
+
 	.dynamic-layout {
 		display: flex;
 		flex-wrap: wrap;
