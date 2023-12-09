@@ -210,7 +210,6 @@ footer {
 	background-attachment: scroll;
 	background-size: 100%;
 	background-repeat: repeat;
-	/* background from SVGBackgrounds.com */
 }
 
 .custom-plain-bg {
@@ -219,15 +218,13 @@ footer {
 	background-size: 100%;
 }
 
-/*Contact svg animation*/
-
 .contact-svg-bg {
 	background-image: url('/blob-scene-haikei1.svg');
+	display: inline;
 	background-attachment: scroll;
 	background-size: 100%;
 	object-fit: cover;
 	background-repeat: none;
-	/* background from SVGBackgrounds.com */
 }
 
 .intro-svg-bg {
@@ -259,6 +256,10 @@ footer {
 
 /* <600 */ 
 @media (max-width: 600px) {
+
+	.intro-svg-bg {
+		background-image: url('/blob-scene-haikei1.svg');
+	}
 
 	.custom-container {
 		max-width: 500px;
@@ -353,6 +354,10 @@ footer {
 
 /* 601 */
 @media (min-width: 601px) {
+
+	.intro-svg-bg {
+		background-image: url('/blob-scene-haikei1.svg');
+	}
 
 	.custom-container {
 		max-width: 800px;
@@ -451,6 +456,10 @@ footer {
 
 /* 820 was 768 */
 @media (min-width: 820px) {
+
+	.intro-svg-bg {
+		background-image: url('/blob-scene-haikei-intro.svg');
+	}
 
 	.custom-container {
 		max-width: 810px;
