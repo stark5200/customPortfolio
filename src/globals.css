@@ -68,7 +68,6 @@ footer {
 	padding: 1.5em 1em 1.5em 1em;
 	color: rgb(var(--white));
 	text-align: center;
-	position: sticky;
 	background-color: #23262d;
 	background-attachment: fixed;
 	background-size: 100%;
@@ -208,8 +207,9 @@ footer {
 	background-color: #ffffff00;
 	background-image: url('/stacked-waves-haikeipurple.svg');
 	background-attachment: scroll;
-	background-size: 100%;
-	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .custom-plain-bg {
@@ -222,16 +222,18 @@ footer {
 	background-image: url('/blob-scene-haikei1.svg');
 	display: inline;
 	background-attachment: scroll;
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	object-fit: cover;
-	background-repeat: none;
 }
 
 .intro-svg-bg {
 	background-image: url('/blob-scene-haikei-intro.svg');
 	background-attachment: scroll;
-	background-size: 100%;
-	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* <600, 601, 768, 992, 1200> */
@@ -247,8 +249,6 @@ footer {
 
 .footer-container {
 	width:100%;
-	position: sticky;
-	bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
 	border: 1px solid red;
