@@ -8,7 +8,7 @@
 	--secondary-hex: #03DAC6; 
 	--secondary-dark-hex: #02655b; 
 	--background: #23262d;
-	--darker-background: #191c22;
+	--footer: #282e3a;
 	--accent: 136, 58, 234;
 	--accent-light: 194, 174, 220;
 	--accent-dark: 49, 10, 101;
@@ -71,7 +71,7 @@ footer {
 	padding: 1.5em 1em 1.5em 1em;
 	color: rgb(var(--white));
 	text-align: center;
-	background-color: var(--darker-background);
+	background-color: var(--footer);
 	background-attachment: fixed;
 	background-size: 100%;
 }
