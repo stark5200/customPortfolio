@@ -8,6 +8,7 @@
 	--secondary-hex: #03DAC6; 
 	--secondary-dark-hex: #02655b; 
 	--background: #23262d;
+	--darker-background: #191c22;
 	--accent: 136, 58, 234;
 	--accent-light: 194, 174, 220;
 	--accent-dark: 49, 10, 101;
@@ -24,7 +25,6 @@ html {
 	/*font-family: system-ui, sans-serif;*/
 	font-family: 'Sometype Mono', monospace;
 	background: #1b1e26;
-	background-size: 224px;
 }
 code {
 	font-family:
@@ -50,9 +50,9 @@ main {
 }
 
 h1 {
-	font-family: 'Sometype Mono', monospace;
-	/*font-family: 'Silkscreen', sans-serif;*/
-	font-size: 3rem;
+	/*font-family: 'Sometype Mono', monospace;*/
+	font-family: 'Silkscreen', sans-serif;
+	font-size: 2.5rem;
 	font-weight: 700;
 	line-height: 1;
 	text-align: center;
@@ -71,7 +71,7 @@ footer {
 	padding: 1.5em 1em 1.5em 1em;
 	color: rgb(var(--white));
 	text-align: center;
-	background-color: var(--background);
+	background-color: var(--darker-background);
 	background-attachment: fixed;
 	background-size: 100%;
 }
@@ -91,7 +91,12 @@ footer {
 }
 
 .custom-text-gradient {
-	background-image: var(--accent-gradient);
+	background-image: linear-gradient(
+		45deg,
+		rgb(3, 218, 198) 5%,
+		rgb(225, 128, 244) 22%,
+		white 10%
+	);;/*var(--accent-gradient);*/
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -100,11 +105,11 @@ footer {
 }
 
 .custom-intro {
-	margin-bottom: 3rem;
+	margin: 0rem 0.5rem 1.5rem;
 	line-height: 1.4;
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
 	background-color: var(--background);
-	padding: 1.5rem;
+	padding: 1.2rem;
 	border-radius: 8px;
 }
 .custom-intro strong {
@@ -116,17 +121,15 @@ footer {
       1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
-		
-	/*text-shadow: 0.7px 0.7px black, 1px 0 black, 0.7px -0.7px black,
-	0 -1px black, -0.7px -0.7px black, -1px 0 black,
-	-0.7px 0.7px black, 0 1px black;*/
 }
 
 .custom-link-card-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(min(24ch, 100%), 1fr));
 	gap: 2rem;
-	padding: 1rem;
+	padding: 2rem 0.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
 }
 
 .custom-link-card {
@@ -206,7 +209,6 @@ footer {
 	background-image: url('/stacked-waves-haikeipurple.svg');
 	background-attachment: scroll;
 	background-size: cover;
-	background-position: center;
 	background-repeat: no-repeat;
 }
 
@@ -242,14 +244,15 @@ footer {
 	margin-right: auto;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
-	border: 1px solid red;
+
+	/* for debugging border: 1px solid red; */
 }
 
 .footer-container {
 	width:100%;
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px solid red;
+	/* for debugging border: 1px solid red; */
 }
 
 /* <600 */ 
@@ -272,6 +275,7 @@ footer {
 	h1 {
 		font-size: 1.5rem;
 		font-weight: 600;
+		margin-bottom: 0.3em;
 	}
 	
 	h2 {
@@ -287,7 +291,7 @@ footer {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		padding-bottom: 0rem;
+		padding: 1rem;
 	}
 
 	.custom-contact {
@@ -313,8 +317,8 @@ footer {
 	}
 
 	.custom-intro {
-		margin-bottom: 3rem;
-		margin-top: 3rem;
+		margin-bottom: 1.5rem;
+		margin-top: 1.5rem;
 		line-height: 1.4;
 	}
 }
@@ -328,7 +332,7 @@ footer {
 
 	.custom-container {
 		max-width: 700;
-		border: 1px solid blue;
+		/* for debugging border: 1px solid blue; */
 	}
 
 	.dynamic-layout {
@@ -370,10 +374,10 @@ footer {
 	}
 	
 	h1 {
-		font-size: 1.5rem;
+		font-size: 2rem;
 		font-weight: 600;
 		line-height: 1;
-		margin-bottom: 1em;
+		margin-bottom: 0.3em;
 	}
 	
 	h2 {
@@ -386,12 +390,13 @@ footer {
 	}
 
 	.footer-container {
-		border: 1px solid blue;
+		width: 100%;
+		/* for debugging border: 1px solid blue; */
 	}
 
 	.custom-intro {
-		margin-bottom: 3rem;
-		margin-top: 3rem;
+		margin-bottom: 1.5rem;
+		margin-top: 1.5rem;
 		line-height: 1.4;
 	}
 
@@ -406,7 +411,7 @@ footer {
 
 	.custom-container {
 		max-width: 800;
-		border: 1px solid green;
+		/* for debugging border: 1px solid green; */
 	}
 
 	.dynamic-layout {
@@ -442,10 +447,10 @@ footer {
 	}
 	
 	h1 {
-		font-size: 1.5rem;
+		font-size: 2.5rem;
 		font-weight: 600;
 		line-height: 1;
-		margin-bottom: 1em;
+		margin-bottom: 0.3em;
 	}
 	
 	h2 {
@@ -458,12 +463,13 @@ footer {
 	}
 
 	.footer-container {
-		border: 1px solid green;
+		width: 100%;
+		/* for debugging border: 1px solid green; */
 	}
 
 	.custom-intro {
-		margin-bottom: 3rem;
-		margin-top: 3rem;
+		margin-bottom: 2rem;
+		margin-top: 2rem;
 		line-height: 1.4;
 	}
 }
@@ -473,7 +479,7 @@ footer {
 
 	.custom-container {
 		max-width: 980px;
-		border: 1px solid pink;
+		/* for debugging border: 1px solid pink; */
 	}
 
 	.dynamic-layout {
@@ -481,6 +487,7 @@ footer {
 		justify-content: space-between;
 		align-items: center;
 		padding-bottom: 16;
+		padding: 1rem;	
 	}
 
 	main {
@@ -490,10 +497,10 @@ footer {
 	}
 	
 	h1 {
-		font-size: 1.5rem;
-		font-weight: 600;
+		font-size: 2.5rem;
+		font-weight: 700;
 		line-height: 1;
-		margin-bottom: 1em;
+		margin-bottom: 0.4em;
 	}
 	
 	h2 {
@@ -506,12 +513,13 @@ footer {
 	}
 
 	.footer-container {
-		border: 1px solid pink;
+		width: 100%;
+		/* for debugging border: 1px solid pink; */
 	}
 
 	.custom-intro {
-		margin-bottom: 3rem;
-		margin-top: 3rem;
+		margin-bottom: 2rem;
+		margin-top: 2rem;
 		line-height: 1.4;
 	}
 }
