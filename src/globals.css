@@ -96,7 +96,8 @@ footer {
 		rgb(3, 218, 198) 5%,
 		rgb(225, 128, 244) 22%,
 		white 10%
-	);;/*var(--accent-gradient);*/
+		/*var(--accent-gradient);*/
+	);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
