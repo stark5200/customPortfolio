@@ -118,7 +118,17 @@ footer {
       -1px 1px 0 #000,
        1px 1px 0 #000;
 }
-
+.custom-intro span {
+	transition: all 300ms;
+	background-color: #0c6a6f5d;
+	border-radius: 3px;
+	margin: 3px 5px;
+	padding: 2px;
+}
+.custom-intro span:hover {
+	transform: translateY(-15px);
+	transition: transform 400ms;
+}
 .custom-link-card-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(min(24ch, 100%), 1fr));
