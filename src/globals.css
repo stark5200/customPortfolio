@@ -121,8 +121,8 @@ footer {
 .custom-intro span {
 	background-color: #0c6a6f5d;
 	border-radius: 3px;
-	margin: 3px 5px;
-	padding: 2px;
+	margin: 0px 10px;
+	padding: 3px;
 }
 
 .floating-text span {
