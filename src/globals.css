@@ -110,7 +110,6 @@ footer {
 }
 .custom-intro strong {
 	color: rgba(var(--accent-light), 100%);
-	/*-webkit-text-stroke-width: 1px black;*/
 	text-shadow:
        3px 3px 0 #000,
      -1px -1px 0 #000,  
@@ -119,20 +118,12 @@ footer {
        1px 1px 0 #000;
 }
 .custom-intro span {
+	/*not used so far*/
 	background-color: #0c6a6f5d;
 	border-radius: 3px;
 	margin: 0px 10px;
 	padding: 3px;
 }
-
-.floating-text span {
-	float: none;
-	transition: float 0.5s ease-in-out;
-}
-.floating-text span:hover {
-	float: left;
-}
-
 
 .custom-link-card-grid {
 	display: grid;
